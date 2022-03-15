@@ -6,7 +6,7 @@
  **/
 int main(void)
 {
-  char charArry[] = "_putchar";
+  char charArray[] = "_putchar";
   
   int c;
   for (c = 0; c < 8; c++)
