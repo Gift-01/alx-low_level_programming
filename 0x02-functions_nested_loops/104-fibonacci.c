@@ -1,7 +1,7 @@
 #include "stdio.h"
 
 /**
- * main - prints the first 90 Fibonacci numbers starting with 1 and 2
+ * main - prints the first 98 Fibonacci numbers starting with 1 and 2
  *
  * Return: int.
  */
@@ -13,10 +13,10 @@ long j = 1;
 int n = 0;
 long fib;
 
-while (n < 90)
+while (n < 98)
 {
 fib = j + i;
-if (n != 89)
+if (n != 97)
 printf("%ld, ", fib);
 else
 printf("%ld\n", fib);
