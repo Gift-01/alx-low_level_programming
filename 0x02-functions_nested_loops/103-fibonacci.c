@@ -18,7 +18,7 @@ while (fib < 4000000)
 {
 fib = j + i;
 if (fib % 2 == 0)
-total =+ fib;
+total += fib;
 i = j;
 j = fib;
 n += 1;
