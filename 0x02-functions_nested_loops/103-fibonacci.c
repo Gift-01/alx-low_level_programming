@@ -17,8 +17,10 @@ long total = 0;
 while (fib < 4000000)
 {
 fib = j + i;
-if (fib % 2 == 0)
+if (fib % 2 == 0){
+printf("%ld\n", fib);
 total += fib;
+}
 i = j;
 j = fib;
 n += 1;
