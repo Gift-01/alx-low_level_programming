@@ -8,10 +8,10 @@
 
 int main(void)
 {
-unsigned long i = 0;
-unsigned long j = 1;
+unsigned long long i = 0;
+unsigned long long j = 1;
 int n = 0;
-unsigned long fib;
+unsigned long long fib;
 
 while (n < 98)
 {
