@@ -25,6 +25,6 @@ i = j;
 j = fib;
 n += 1;
 }
-printf("%ld\n", fib);
+printf("%ld\n", total);
 return (0);
 }
