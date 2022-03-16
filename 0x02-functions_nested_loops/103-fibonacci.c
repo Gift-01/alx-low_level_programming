@@ -12,15 +12,17 @@ long i = 0;
 long j = 1;
 int n = 0;
 long fib;
+long total;
 
 while (fib < 4000000)
 {
 fib = j + i;
 if (fib % 2 == 0)
-printf("%ld\n", fib);
+total =+ fib;
 i = j;
 j = fib;
 n += 1;
 }
+printf("%ld\n", total);
 return (0);
 }
