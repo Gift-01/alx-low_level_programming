@@ -8,18 +8,18 @@
 
 int main(void)
 {
-unsigned long long int i = 0;
-unsigned long long int j = 1;
+unsigned long int i = 0;
+unsigned long int j = 1;
 int n = 0;
-unsigned long long int fib;
+unsigned long int fib;
 
 while (n < 98)
 {
 fib = j + i;
 if (n != 97)
-printf("%llu, ", fib);
+printf("%lu, ", fib);
 else
-printf("%llu\n", fib);
+printf("%lu\n", fib);
 i = j;
 j = fib;
 n += 1;
