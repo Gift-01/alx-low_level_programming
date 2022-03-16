@@ -13,7 +13,7 @@ long j = 1;
 int n = 0;
 long fib;
 
-while (n < 4000000)
+while (fib < 4000000)
 {
 fib = j + i;
 if (n%2 == 0)
