@@ -12,7 +12,7 @@ long i = 0;
 long j = 1;
 int n = 0;
 long fib;
-long total;
+long total = 0;
 
 while (fib < 4000000)
 {
