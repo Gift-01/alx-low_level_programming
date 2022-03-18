@@ -13,7 +13,11 @@ for(int a = 0; a < 10; a++)
 int i = 0;
 for( ;i < 15; i++)
 {
-_putchar(i + '0');
+if ( i >= 10 )
+{
+_putchar((i / 10) + '0')
+}
+_putchar((i % 10) + '0');
 }
 _putchar('\n');
 } 
