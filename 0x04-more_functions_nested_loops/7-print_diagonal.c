@@ -12,9 +12,9 @@ for (int a = 0 ; a < n; a++)
 {
 for (int b = 0 ; b < a; b++)
 {
-_putchar(' ');
+_putchar(" ");
 }
-_putchar('\');
-_putchar('\n');
+_putchar("\");
+_putchar("\n");
 }
 }
