@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_lines - Prints line based on numbers recieved
+ * print_line - Prints line based on numbers recieved
  *
  * @n : integer
  * Return: void.
  */
 
-void print_lines(int n)
+void print_line(int n)
 {
 int w;
 
