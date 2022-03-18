@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * more_numbers - Prints code from 0 to 14, 10 times
  *
@@ -8,10 +8,11 @@
 
 void more_numbers (void)
 {
-for(int a = 0; a < 10; a++)
+int a, i;
+for(a = 0; a < 10; a++)
 {
-int i = 0;
-for( ;i < 15; i++)
+
+for(i = 0 ;i < 15; i++)
 {
 if ( i >= 10 )
 {
