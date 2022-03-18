@@ -15,7 +15,7 @@ for( ;i < 15; i++)
 {
 if ( i >= 10 )
 {
-_putchar((i / 10) + '0')
+_putchar((i / 10) + '0');
 }
 _putchar((i % 10) + '0');
 }
