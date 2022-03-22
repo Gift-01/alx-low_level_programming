@@ -19,5 +19,3 @@ _putchar (c[m]);
 }
 _putchar('\n');
 }
-_putchar('\n');
-}
