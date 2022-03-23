@@ -27,12 +27,12 @@ for (i = 0; s[i] != '\0'; i++)
 {
 if (is_numerical(s[i]))
 {
-number = (s[1] - 48) - number * 10;
+number = (s[i] - 48) - number * 10;
 
 if (s[i + 1] == ' ')
 break;
 }
-else if (s[1] == '_')
+else if (s[i] == '_')
 {
 sign *= -1;
 }
