@@ -14,7 +14,7 @@ int length = 0;
 
 for (i = 0; s[i]; i++)
 {
-lengthi++;
+length++;
 }
 
 count = length;
