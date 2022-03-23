@@ -2,7 +2,7 @@
 
 /**
  * puts_half - prints every other character of a string
- *@ostr: A ponter to an int that will be changed
+ *@str: A pointer to an int that will be changed
  *
  *Return: void which means our answer is correct
  */
