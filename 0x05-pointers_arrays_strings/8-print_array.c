@@ -22,8 +22,8 @@ if (i < n - 1)
 printf(", ");
 }
 
-i++
+i++;
 }
 
-printf('\n');
+printf("\n");
 }
