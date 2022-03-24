@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
 *_strcat - concatenates two strings
 *@dest: :iA pointer to a character that will be changed
